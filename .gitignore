@@ -1,0 +1,25 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets & Large Weights
+dataset/raw/
+dataset/processed/
+dataset/splits/
+outputs/models/
+
+# Keep empty folder structures if needed
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
